@@ -9,7 +9,7 @@ from supabase import create_client, Client
 from pydantic import BaseModel, Field
 from typing import List, Optional
 import uvicorn
-from fastmcp import FastMCP
+from mcp.server.fastmcp import FastMCP
 from dotenv import load_dotenv
 import uuid
 import json
