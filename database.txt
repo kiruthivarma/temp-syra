@@ -1,0 +1,52 @@
+| table_name          | column_name         | data_type                |
+| ------------------- | ------------------- | ------------------------ |
+| appointment_details | row_id              | bigint                   |
+| appointment_details | created_at          | timestamp with time zone |
+| appointment_details | patient_name        | text                     |
+| appointment_details | appointment_reason  | text                     |
+| appointment_details | appointment_date    | date                     |
+| appointment_details | appointment_time    | time without time zone   |
+| appointment_details | event_id            | text                     |
+| appointment_details | user_id             | text                     |
+| appointment_details | call_id             | text                     |
+| appointment_details | appointment_id      | text                     |
+| appointment_details | current_status      | text                     |
+| appointment_details | assigned_doctor     | text                     |
+| appointment_details | calendar_id         | text                     |
+| call_history        | row_id              | bigint                   |
+| call_history        | created_at          | timestamp with time zone |
+| call_history        | call_id             | text                     |
+| call_history        | caller_number       | text                     |
+| call_history        | called_number       | text                     |
+| call_history        | call_start          | text                     |
+| call_history        | call_end            | text                     |
+| call_history        | call_duration       | text                     |
+| call_history        | call_status         | text                     |
+| call_history        | user_id             | text                     |
+| call_history        | appointment_status  | text                     |
+| call_history        | call_summary        | text                     |
+| profiles            | id                  | uuid                     |
+| profiles            | name                | text                     |
+| profiles            | phone               | text                     |
+| profiles            | created_at          | timestamp with time zone |
+| profiles            | updated_at          | timestamp with time zone |
+| user_settings       | row_id              | uuid                     |
+| user_settings       | user_id             | uuid                     |
+| user_settings       | about               | text                     |
+| user_settings       | services            | text                     |
+| user_settings       | location            | text                     |
+| user_settings       | calendar_email      | text                     |
+| user_settings       | notify_email        | text                     |
+| user_settings       | support_human_phone | text                     |
+| user_settings       | doctor_details      | jsonb                    |
+| user_settings       | working_hours       | text                     |
+| user_settings       | lunch_hours         | text                     |
+| user_settings       | holidays            | text                     |
+| user_settings       | agent_voice         | text                     |
+| user_settings       | custom_greetings    | text                     |
+| user_settings       | custom_endings      | text                     |
+| user_settings       | onboarding_step     | integer                  |
+| user_settings       | created_at          | timestamp with time zone |
+| user_settings       | updated_at          | timestamp with time zone |
+| user_settings       | calendar_auth       | json                     |
+| user_settings       | agent_phone         | text                     |
